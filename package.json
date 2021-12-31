@@ -1,0 +1,17 @@
+{
+  "name": "mcomm",
+  "version": "1.0.0",
+  "description": "Mythril version of Communication Matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo --live --open index.js"
+  },  
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.8"
+  },
+  "homepage": "https://github.com/Dare2python/mcomm#readme"
+}
