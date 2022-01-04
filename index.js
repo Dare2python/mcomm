@@ -1,4 +1,4 @@
 const m = require("mithril");
+const Matrix = require("./src/view/Matrix");
 
-m.render(document.body, "Matrix");
-
+m.mount(document.body, Matrix);

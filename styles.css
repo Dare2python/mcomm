@@ -1,18 +1,32 @@
-.square {
+.matrix {
+    float: left;
+}
+.entity {
     background: #fff;
     border: 1px solid #999;
     /* float: left; */
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+    /* line-height: 34px; */
+    /* height: 34px; */
+    padding: 3px;
+    /* text-align: center; */
+    /* width: 34px; */
+    /* display: block; */
 }
   
-.square:focus {
-    outline: none;
+.entity:focus {
+    /* outline: none; */
+}
+
+.cidr {
+    border: 1px solid #999;
+    margin-right: 1px;
+    margin-top: 1px; 
+    padding: 1px;
+    /* float: left; */
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
 }
