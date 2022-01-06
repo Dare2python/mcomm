@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "budo --live --open index.js"
-  },  
+    "budo": "budo --live --open index.js"
+  },
   "dependencies": {
+    "@aws-sdk/client-ec2": "^3.45.0",
     "mithril": "^2.0.4"
   },
   "devDependencies": {
-    "@types/mithril": "^2.0.8"
+    "@types/mithril": "^2.0.8",
+    "budo": "^11.6.4"
   },
   "homepage": "https://github.com/Dare2python/mcomm#readme"
 }
